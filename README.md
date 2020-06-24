@@ -33,20 +33,20 @@ Table name:   time
 Table fields: start_time, hour, day, week, month, year, weekday
 
 ## Project Build
-#Prerequisites
-*Python 3
-*pipenv
-*Conda (optional)
-*PostgreSQL Database
+# Prerequisites
+* Python 3
+* pipenv
+* Conda (optional)
+* PostgreSQL Database
 
-#Postgres Database
+# Postgres Database
 Choose a local or docker based install of the postgres data base. In this case I have chosen docker, to get started quicker.
 Download and run the postgres container
 ```
 docker run --name [container_name] -e POSTGRES_PASSWORD=[your_password] -d postgres
 ```
 
-##User Setup Steps
+## User Setup Steps
 
 
-##Running the Project
+## Running the Project

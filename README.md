@@ -7,7 +7,7 @@ They are particularly interested in understanding what songs users are listening
 In this project, the aim is to complete data modeling with Postgres by creating a Postgres database with tables to optimize queries on song play analysis, creating a database schema and building an ETL pipeline using Python.
 
 # Project Datasets
-The project uses the following datasets; song data set and log data set. The data is collected as JSON files.
+The project uses the following datasets; song dataset and log dataset. The data is collected as JSON files.
 ## Song dataset
 
 ## Log dataset
@@ -31,3 +31,22 @@ Table fields: artist_id, name, location, latitude, longitude
 
 Table name:   time
 Table fields: start_time, hour, day, week, month, year, weekday
+
+## Project Build
+#Prerequisites
+*Python 3
+*pipenv
+*Conda (optional)
+*PostgreSQL Database
+
+#Postgres Database
+Choose a local or docker based install of the postgres data base. In this case I have chosen docker, to get started quicker.
+Download and run the postgres container
+```
+docker run --name [container_name] -e POSTGRES_PASSWORD=[your_password] -d postgres
+```
+
+##User Setup Steps
+
+
+##Running the Project

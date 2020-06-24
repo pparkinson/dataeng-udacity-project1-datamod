@@ -34,7 +34,7 @@ Table fields: start_time, hour, day, week, month, year, weekday
 
 ## Project Build
 # Prerequisites
-* Python 3
+* Python3
 * pipenv
 * Conda (optional)
 * PostgreSQL Database
